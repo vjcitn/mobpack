@@ -1,0 +1,16 @@
+Package: mobpack
+Title: package that looks at a subset of google mobility data in various ways
+Description: Look at a subset of google mobility data in various ways.
+Version: 0.0.1
+Author: Vince Carey
+Suggests: knitr
+Depends: R (>= 3.6)
+Imports: ggplot2, dplyr, magrittr, glue, shiny, vroom
+Maintainer: VJ Carey <stvjc@channing.harvard.edu>
+License: Artistic-2.0
+LazyLoad: yes
+LazyData: yes
+biocViews: variants
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1
+Encoding: UTF-8
